@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="9"  lines-covered="5"  line-rate="0.5556"  branches-valid="2"  branches-covered="0"  branch-rate="0"  timestamp="1437492372213" complexity="0" version="0.1">
+<sources>
+	<source>/home/fedora/workspace/eyerun_requestor_commit-stage</source>
+</sources>
+<packages>
+	<package name="eyerun_requestor_commit-stage"  line-rate="0.5556"  branch-rate="0" >
+	<classes>
+		<class name="Gruntfile.js"  filename="Gruntfile.js"  line-rate="0.5714"  branch-rate="0" >
+		<methods>
+			<method name="(anonymous_1)"  hits="1"  signature="()V" >
+				<lines><line number="1"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="0"  signature="()V" >
+				<lines><line number="28"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="1"  branch="false" />
+			<line number="2"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+			<line number="28"  hits="1"  branch="false" />
+			<line number="29"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="30"  hits="0"  branch="false" />
+			<line number="32"  hits="0"  branch="false" />
+		</lines>
+		</class>
+		<class name="requirejs.js"  filename="requirejs.js"  line-rate="0.5"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="0"  signature="()V" >
+				<lines><line number="15"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="1"  branch="false" />
+			<line number="17"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
